@@ -7,6 +7,7 @@ module ctf::vault {
     id: UID,
     code: u64
   }
+  
   public fun new(
     code: u64,
     ctx: &mut TxContext
